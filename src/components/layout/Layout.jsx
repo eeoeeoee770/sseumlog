@@ -4,7 +4,7 @@ import Header from "./Header";
 
 const Layout = () => {
   return (
-    <div className="max-w-3xl mx-auto bg-slate-200">
+    <div className="max-w-3xl mx-auto">
       <Header />
 
       {/* 페이지 영역 */}
