@@ -10,7 +10,7 @@ const Card = () => {
       className="w-full min-h-[300px] rounded-xl mt-6 bg-cover bg-center"
       style={{ backgroundImage: `url(${bg})`}}
     >
-      <div className="backdrop-blur-[3px] rounded-xl w-full h-[300px] flex flex-col items-center justify-between px-10 py-10">
+      <div className="backdrop-blur-[10px] rounded-xl w-full h-[300px] flex flex-col items-center justify-between px-10 py-6">
         {/* 날짜 */}
         <section className="w-full flex justify-between items-center">
           <button className="w-[35px] h-[35px] rounded-full flex cursor-pointer items-center bg-white/10 hover:bg-white/20">
@@ -37,8 +37,15 @@ const Card = () => {
           <p className="text-gray-400">지난 달 대비</p>
         </section>
 
-        <section>
-          <div>지난달</div>
+        <section className="w-full flex justify-center gap-5">
+            <div className="w-1/2 text-center rounded-xl py-3 bg-white/10">
+              <p className="text-gray-400">지난 달</p>
+              <p className="text-white font-extrabold">W383,200</p>
+            </div>
+            <div className="w-1/2 text-center rounded-xl py-3 bg-white/10">
+              <p className="text-gray-400">거래 건수</p>
+              <p className="text-white font-extrabold">10건</p>
+            </div>
         </section>
       </div>
     </div>
