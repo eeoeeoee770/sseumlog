@@ -24,7 +24,7 @@ const IconToggle = () => {
           onClick={() => setActiveTab(tab.id)}
           className="relative z-10 p-2"
         >
-          <img src={tab.icon} alt={tab.alt} />
+          <img className="w-4" src={tab.icon} alt={tab.alt} />
           {activeTab === tab.id && (
             <motion.div
               layoutId="active-pill"
