@@ -8,7 +8,7 @@ const Layout = () => {
       <Header />
 
       {/* 페이지 영역 */}
-      <main className="px-6">
+      <main className="px-3 py-[70px]">
         <Outlet />
       </main>
     </div>

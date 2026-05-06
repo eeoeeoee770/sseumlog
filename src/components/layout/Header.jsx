@@ -6,14 +6,14 @@ import logout from "../../assets/logout.png";
 
 const Header = () => {
   return (
-    <header className="header w-full px-6 py-3 flex justify-between bg-white/25">
+    <header className="header top-0 left-0 w-full px-3 py-3 flex fixed z-10 justify-between bg-white/80 backdrop-blur-sm">
       <div className="logo w-[100px] flex items-center justify-between cursor-pointer rounded-xl">
-        <logo
+        <div
           tabIndex={0}
           className="w-[45px] h-[45px] bg-black flex justify-center items-center rounded-xl"
         >
           <img src={logo} alt="로고" className="size-7" />
-        </logo>
+        </div>
         <h1 tabIndex={0} className="font-semibold">
           씀씀이
         </h1>

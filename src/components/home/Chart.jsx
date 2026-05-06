@@ -28,8 +28,8 @@ const Chart = ({ chartType }) => {
   const chartRef = useRef(null);
 
   // 월별 추이 데이터.
-  const rawData = [100, 200, 300, 500, 0, 0, 0];
-  const dateLabels = ["1월", "2월", "3월", "4월", "5월", "6월", "7월"];
+  const rawData = [200, 300, 500, 200, 330, 430];
+  const dateLabels = ["11월", "12월", "1월", "2월", "3월", "4월"];
 
   // 카테고리 비율 데이터.
   const categoryDummy = [
